@@ -133,9 +133,16 @@ error = atan2(sin(target_yaw - current_yaw),
 
 以上指标来自本地验证集。实际运行效果仍会受到光照、拍摄角度、遮挡和运动模糊影响。
 
-![果蔬验证集预测结果](assets/results/harvest_validation.jpg)
+<p align="center">
+  <img src="vision/yolov5/results/harvest/PR_curve.png" width="48%" alt="果蔬模型 PR 曲线" />
+  <img src="vision/yolov5/results/harvest/confusion_matrix.png" width="48%" alt="果蔬模型混淆矩阵" />
+</p>
+
+<p align="center">果蔬模型 PR 曲线与混淆矩阵</p>
 
 ![果蔬模型训练曲线](vision/yolov5/results/harvest/results.png)
+
+完整训练日志和验证批次预测图保留在 [`vision/yolov5/results/harvest`](vision/yolov5/results/harvest)，用于查看各类别的原始验证表现。
 
 ## 仓库结构
 
