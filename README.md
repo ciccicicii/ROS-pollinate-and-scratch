@@ -134,6 +134,12 @@ error = atan2(sin(target_yaw - current_yaw),
 以上指标来自本地验证集。实际运行效果仍会受到光照、拍摄角度、遮挡和运动模糊影响。
 
 <p align="center">
+  <img src="assets/results/data_collection_apple.jpg" width="82%" alt="果蔬识别数据采集实验现场" />
+</p>
+
+<p align="center">果蔬识别数据采集实验：悬挂目标与结构化作业背景</p>
+
+<p align="center">
   <img src="vision/yolov5/results/harvest/PR_curve.png" width="48%" alt="果蔬模型 PR 曲线" />
   <img src="vision/yolov5/results/harvest/confusion_matrix.png" width="48%" alt="果蔬模型混淆矩阵" />
 </p>
