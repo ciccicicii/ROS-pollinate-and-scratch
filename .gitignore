@@ -1,0 +1,22 @@
+.worktrees/
+
+# Local third-party source trees used only for selecting showcase files.
+/yolov5/
+/Deepsteam-yolo/
+
+# Python and ROS build artifacts.
+__pycache__/
+*.py[cod]
+build/
+devel/
+install/
+log/
+
+# Model weights and generated inference binaries.
+*.pt
+*.pth
+*.onnx
+*.engine
+*.wts
+*.so
+internal_memory.txt
