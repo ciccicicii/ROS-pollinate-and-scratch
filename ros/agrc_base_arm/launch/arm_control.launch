@@ -1,0 +1,5 @@
+<launch>
+  <rosparam file="$(find agrc_base_arm)/config/RoArm_M2.yaml" command="load" />
+  <node pkg="agrc_base_arm" type="new_arm.py"
+        name="RoArm_M2" output="screen" />
+</launch>

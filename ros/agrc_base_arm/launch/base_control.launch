@@ -1,0 +1,12 @@
+<launch>
+  <include file="$(find aicar_imu)/launch/imu_serial.launch" />
+
+  <node pkg="agrc_base_arm" type="aicar_pid_line_turn.py"
+        name="aicar_pid" output="screen">
+    <param name="Kp_yaw" type="double" value="0.8" />
+    <param name="Kd_yaw" type="double" value="0.0" />
+    <param name="Ki_yaw" type="double" value="0.0" />
+    <param name="speed_x" type="double" value="0.3" />
+    <param name="boost_factor" type="double" value="0.0" />
+  </node>
+</launch>

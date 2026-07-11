@@ -1,0 +1,5 @@
+<launch>
+  <rosparam file="$(find agrc_base_arm)/config/compitation_scratch.yaml" command="load" />
+  <node pkg="agrc_base_arm" type="new_scra.py"
+        name="harvest_mission" output="screen" />
+</launch>
